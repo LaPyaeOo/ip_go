@@ -1,7 +1,8 @@
 name: ip_go
 description: "Flutter package to get device ip address"
 version: 0.0.1
-homepage:
+homepage: https://github.com/LaPyaeOo/ip_go/blob/main/lib/ip_go.dart
+repository: https://github.com/LaPyaeOo/ip_go/blob/main/lib/ip_go.dart
 
 environment:
   sdk: ^3.5.3

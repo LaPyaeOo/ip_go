@@ -1,39 +1,29 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# ip_go
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+To get the device's private and public IP addresses simply.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+## Supported Platforms
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+| Android | iOS | Web (External) | macOS | Linux | Windows |
+| :-----: | :-: | :------------: | :---: | :---: | :-----: |
+|   ✅    | ✅  |      ✅       |  ✅   |  ✅   |   ✅    |
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
+To get public ip address.
 ```dart
-const like = 'sample';
+  await IpGo.publicIp;
 ```
 
-## Additional information
+To get private ip address.
+```dart
+  await IpGo.privateIp;
+```
+## Why ip go?
+There are many other packages to get ip address easily but this package is to get public and private ip easily, not contain any other function to overload to your project with unnecessary things. 
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## More info
+Primary focus on MVP as first stage. Have to add more features and encourage for contribution.
+
+## Contact
+Contact me directly with this email
+lapyaeootharthar@gmail.com
