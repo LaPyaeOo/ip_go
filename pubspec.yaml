@@ -1,6 +1,6 @@
 name: ip_go
-description: "Flutter package to get device ip address"
-version: 0.0.1
+description: "A Flutter package designed to retrieve both public and private IP addresses, with full support for multiple platforms including Android, iOS, Windows, Linux, and macOS. This package provides a simple and unified API to access network information across devices, making it ideal for cross-platform development, diagnostics, and network-based features."
+version: 1.0.0
 homepage: https://github.com/LaPyaeOo/ip_go/blob/main/lib/ip_go.dart
 repository: https://github.com/LaPyaeOo/ip_go/blob/main/lib/ip_go.dart
 

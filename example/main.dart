@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text('Privat IP: $privateAddress'),
+              Text('Private IP: $privateAddress'),
               Text('Public IP: $publicAddress'),
             ],
           ),
